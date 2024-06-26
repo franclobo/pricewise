@@ -1,9 +1,13 @@
+import { getAllProducts } from '@/lib/actions';
 import Image from 'next/image'
 import React from 'react'
 import Searchbar from './components/Searchbar';
 import HeroCarousel from './components/HeroCarousel';
+import ProductCard from './components/ProductCard';
 
-function Home() {
+const Home = async () => {
+
+  const allProducts = await getAllProducts();
   return (
     <>
       <section className="px-6 md:px-20 py-24">
@@ -36,16 +40,8 @@ function Home() {
       <section className='trending-section'>
         <h2 className='section-text'>Tendencias</h2>
         <div className='flex flex-wrap gap-x-8 gap-y-16'>
-          {['Apple Iphone 12', 'Samsung Galaxy S21', 'OnePlus 9 Pro', 'Google Pixel 5'].map((product, index) => (
-            <div key={index} className='trending-card'>
-              <Image
-                src='/assets/products/iphone-12.png'
-                alt='iphone-12'
-                width={200}
-                height={200}
-              />
-              <p className='trending-card-text'>{product}</p>
-            </div>
+          {allProducts.map((product) => (
+            <ProductCard product={product} key={product._id} />
           ))}
         </div>
       </section>
