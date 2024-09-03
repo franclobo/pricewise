@@ -49,21 +49,21 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Next.js</a></li>
+    <li><a href="https://nextjs.org/">Next.js</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">MongoDB</a></li>
+    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">MongoDB</a></li>
+    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
   </ul>
 </details>
 
