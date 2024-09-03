@@ -36,6 +36,12 @@
 
 **PriceWise** te permite realizar el seguimiento de los precios de los productos sin esfuerzo y ahorrar dinero en tus compras en línea.
 
+![image](https://github.com/user-attachments/assets/ee5a3670-02a6-4ebb-a288-5082424bb543)
+
+![image](https://github.com/user-attachments/assets/80e350df-1db8-4140-b2cf-eedff6d2b4d9)
+
+![image](https://github.com/user-attachments/assets/3477d76c-0793-41e3-8584-6ea2ab915acd)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
