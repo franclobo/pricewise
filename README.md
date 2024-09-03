@@ -140,7 +140,7 @@ Create a `.env` file in the root of the project and add the following variables:
 
 You can deploy this project using:
 
-- Versel
+- [Vercel](https://vercel.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
